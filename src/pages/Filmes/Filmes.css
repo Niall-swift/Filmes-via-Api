@@ -55,8 +55,8 @@
     align-items: center;
     max-width: 40px;
     max-height: 40px;
-    background: rgb(207, 40, 40);
-    box-shadow: 1px -1px 20px 5px rgb(207, 40, 40);
+    background: #a349f7;
+    box-shadow: 0px 0px 10px 0px  #BC7AF9;
     font-size: 20px;
 }
 
@@ -69,9 +69,10 @@
 }
 
 .button button{
-    background: rgb(207, 40, 40);
+    background: #a349f7;
     font-size: 20px;
     padding: 5px;
+    padding: 1rem;
     margin-left: 14px;
     margin-right: 14px;
     border: none;
@@ -80,8 +81,9 @@
     
 }
 .button button:hover{
-    box-shadow: 1px -1px 20px 5px rgb(207, 40, 40);
-    transition: all .5s;
+    box-shadow: 0px 0px 20px 0px inset #BC7AF9;
+    box-shadow: 0px 0px 10px 0px  #BC7AF9;
+    transition: all 1.5s;
 }
 
 .button a{

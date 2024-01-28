@@ -1,0 +1,25 @@
+.slider-conteine{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem 1rem;
+    position: relative;
+} 
+
+.slider-conteine img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 20px;
+    @media screen and (max-width: 512px){
+        height: 20rem;
+    }
+}
+
+.title-move h1{
+    margin-top: 10.75em;
+    margin-left: 5rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}

@@ -5,7 +5,7 @@
     justify-content: space-around;
     width: 100%;
     height: 60px;
-    background: rgb(207, 41, 41);
+    background: #343434;
 }
 .logo{
     text-decoration: none;
@@ -17,10 +17,17 @@
 
 .favoritos{
     text-decoration: none;
-    cursor: pointer;
-    background: rgb(255, 255, 254);
-    padding: 5px 10px;
-    color: black;
-    border-radius: 15px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0.75rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: linear-gradient(67deg, #FFA1F5, #BC7AF9, #9711d0);
+    transition: all 1s;
+    color: #fff;
+    font-weight: 600;
 }
